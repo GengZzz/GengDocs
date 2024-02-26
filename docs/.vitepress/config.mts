@@ -7,6 +7,7 @@ import sideMarkdown from './catalogue/side/markdown'
 import sideNetwork from './catalogue/side/network'
 import sideSystem from './catalogue/side/system'
 import sidePrinciples from './catalogue/side/principles'
+import sideNotebook from './catalogue/side/notebook'
 export default defineConfig({
     title: 'Docs-GengZzz',
     description: 'docs of GengZzz',
@@ -29,7 +30,8 @@ export default defineConfig({
             '/tool/other/markdown':sideMarkdown(),
             '/net/network/':sideNetwork(),
             '/net/system/':sideSystem(),
-            '/net/principles/':sidePrinciples()
+            '/net/principles/':sidePrinciples(),
+            '/notebook/':sideNotebook()
         },
         socialLinks: [
             { icon: 'github', link: 'https://github.com/GengZzz' },

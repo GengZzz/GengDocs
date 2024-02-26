@@ -222,6 +222,10 @@ function nav() {
             ],
         },
         {
+            text:'随笔',
+            link:'/notebook/index'
+        },
+        {
             text:'其他',
             items:[
                 {

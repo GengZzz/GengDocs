@@ -12,7 +12,7 @@ export default defineConfig({
     description: 'docs of GengZzz',
     lang: 'en-US',
     lastUpdated: true,
-    base:'/gengDocs/',
+    base:'/GengDocs/',
     markdown: {
         lineNumbers: true
     },

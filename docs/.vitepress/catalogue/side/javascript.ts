@@ -13,11 +13,7 @@ function sidebarJavaScript(){
             ],
         },
         {
-            text: '运算符与流程控制',
-            collapsed: false,  
-            items: [
-               
-            ],
+            text:'运算符与流程控制',link:'/web/js/03-process.md'
         },
         {
             text: '变量、作用域和内存问题',

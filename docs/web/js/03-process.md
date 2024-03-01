@@ -202,7 +202,7 @@ age
 ```
 :::
 ### for-of语句
-用来遍历Array[数组]、String[字符串],Maps(映射)、Sets(集合)等可迭代的数据类型
+用来遍历`Array`[数组]、`String`[字符串],`Maps`(映射)、`Sets`(集合)等可迭代的数据类型
 > [!tip]
 > 与for/in不同的是for\of每次循环取其中的值而不是索引  
 遍历数组
@@ -241,8 +241,8 @@ d
 ```
 :::
 ### break/continue
-break用于退出当前循环，continue用于退出当前循环返回循环起始继续执行
-利用continue特性后去10以内的偶数
+`break`用于退出当前循环，`continue`用于退出当前循环返回循环起始继续执行
+利用`continue`特性后去10以内的偶数
 ```js
 for (let index = 1; index < 10; index++) {
 	if(index % 2){
@@ -260,17 +260,17 @@ for (let index = 1; index < 10; index++) {
 ```
 :::
 ### label语句
-定义label,可以使用continue/breal跳转到该位置
+定义`label`,可以使用`continue/breal`跳转到该位置
 ### switch语句
 ::: tip 
-> 可以将switch理解为if的另外一种写法
-* 如果表达式等于case中的值，将执行次case代码段
-* break关键字或终止switch的执行
-* 没有任何case匹配时将执行default代码片段
-* 如果case执行后缺少break则接着执行后面的代码
+> 可以将`switch`理解为`if`的另外一种写法
+* 如果表达式等于`case`中的值，将执行次`case`代码段
+* `break`关键字或终止`switch`的执行
+* 没有任何`case`匹配时将执行`default`代码片段
+* 如果`case`执行后缺少`break`则接着执行后面的代码
 :::
 ### 三元表达式
-是针对if判断的简写形式
+是针对`if`判断的简写形式
 ```js 
 true ? console.log('after true run') : console.log('after false run') //after true run
 ```

@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { navs } from './catalogue/nav'
+import { htmlSidebar } from './catalogue/sidebar/html'
+import { jsSidebar } from './catalogue/sidebar/js'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -14,7 +16,10 @@ export default defineConfig({
     lastUpdatedText: '最后更新',
     logo: '/common/logo.png',
     nav: navs,
-    sidebar: [],
+    sidebar: {
+      'web/html': htmlSidebar,
+      'web/js': jsSidebar
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/GengZzz' },
       {

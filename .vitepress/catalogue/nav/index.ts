@@ -4,8 +4,12 @@ export const navs = [
     items: [
       {
         text: 'HTML',
-        link: '/web/html/index',
+        link: '/web/html'
       },
-    ],
-  },
+      {
+        text: 'JavaScript',
+        link: '/web/js'
+      }
+    ]
+  }
 ]

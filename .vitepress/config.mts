@@ -10,7 +10,8 @@ export default defineConfig({
   lang: 'en-US',
   head: [['link', { rel: 'icon', href: '/common/logo.png' }]],
   cleanUrls: true,
-  // srcDir: 'src',
+  srcDir: './src',
+  base: '/blog/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     lastUpdatedText: '最后更新',

@@ -10,6 +10,7 @@ export default defineConfig({
   lang: 'en-US',
   head: [['link', { rel: 'icon', href: '/common/logo.png' }]],
   cleanUrls: true,
+
   srcDir: './src',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

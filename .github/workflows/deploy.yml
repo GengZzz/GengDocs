@@ -42,15 +42,15 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: yarn install
+        run: npm ci # 或 pnpm install / yarn install / bun install
       - name: Build with VitePress
         run: |
           yarn docs:build
-          touch .vitepress/dist/.nojekyll
+          touch /.vitepress/dist/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .vitepress/dist
+          path: /.vitepress/dist
 
   # 部署工作
   deploy:

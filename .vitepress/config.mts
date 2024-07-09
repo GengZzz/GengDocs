@@ -11,6 +11,7 @@ export default defineConfig({
   head: [['link', { rel: 'icon', href: '/common/logo.png' }]],
   cleanUrls: true,
   srcDir: 'src',
+  base: '/base/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     lastUpdatedText: '最后更新',

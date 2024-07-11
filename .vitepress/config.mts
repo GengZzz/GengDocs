@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import { navs } from './catalogue/nav'
 import { htmlSidebar } from './catalogue/sidebar/html'
 import { jsSidebar } from './catalogue/sidebar/js'
+import { noteSidebar } from './catalogue/sidebar/note'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -19,7 +20,8 @@ export default defineConfig({
     nav: navs,
     sidebar: {
       'web/html': htmlSidebar,
-      'web/js': jsSidebar
+      'web/js': jsSidebar,
+      'note/web': noteSidebar
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/GengZzz' },

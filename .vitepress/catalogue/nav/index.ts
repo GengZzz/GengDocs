@@ -11,5 +11,9 @@ export const navs = [
         link: '/web/js'
       }
     ]
+  },
+  {
+    text: '随笔',
+    link: 'note/web'
   }
 ]

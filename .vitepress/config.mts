@@ -8,7 +8,7 @@ export default defineConfig({
   title: 'Docs-GengZzz',
   description: 'docs of GengZzz',
   lang: 'en-US',
-  head: [['link', { rel: 'icon', href: '/common/logo.png' }]],
+  head: [['link', { rel: 'icon', href: './common/logo.png' }]],
   cleanUrls: true,
   srcDir: './src',
   base: '/GengDocs/',

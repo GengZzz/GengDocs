@@ -1,15 +1,11 @@
-## html
+# 基础与简介
 
-:::info
-hello world
-:::
-:::warning
-hello world
-:::
-:::tip
-hello world
-:::
+`超文本标记语言`（英语：HyperText Markup Language，简称：HTML）是一种用来结构化 Web 网页及其内容的标记语言。网页内容可以是：一组段落、一个重点信息列表、也可以含有图片和数据表。
 
-:::danger
-hello world
-:::
+## HTML
+
+HTML `不是一门编程语言`，而是一种用于定义内容结构的标记语言。HTML 由一系列的元素组成，这些元素可以用来包围不同部分的内容，使其以某种方式呈现或者工作。一对标签可以为一段文字或者一张图片添加超链接，将文字设置为斜体，改变字号，等等。如：
+
+```html
+<p>hello world</p>
+```

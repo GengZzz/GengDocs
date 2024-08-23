@@ -8,8 +8,6 @@ outline: deep
 
 - 主要阐述 vitepres 项目部署到`GitHub Pages`
 - 不阐述 vitepess 细节技术使用，详细使用可详见[vitepress 中文官网](https://vitepress.dev/zh/)
-- 包含细节`踩坑`，如遇`GitHub`部署问题，可放心食用
-- 通过 Github Actions 直接推送`自动更新`
 - 如想保姆级别的 Vitepress 教程博客，可查看该博主的[博客](https://docs.bugdesigner.cn/docs/Tutorial/vitepress.html)
   :::
 
